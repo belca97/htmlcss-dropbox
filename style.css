@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -36,6 +36,49 @@ a{
     display: inline-block;
 }
 
+.btn-white{
+    border: 1px solid black;
+    color: black;
+}
+
+.col{
+    float: left;
+    width: 30%;
+    border: 2px solid rgb(119, 118, 118);
+}
+
+.width-60{
+    width: 60%;
+    margin-top: 150px;
+}
+
+.col-center{
+    float: left;
+    width: 30%;
+    margin: 0% 5%;
+    border: 2px solid rgb(119, 118, 118);
+}
+
+.top-col{
+    text-align: center;
+    border-bottom: 2px solid rgb(119, 118, 118);
+    padding: 5px 10px;
+    margin-top: 10x;
+}
+
+
+.content-text{
+    padding: 10px 10px;
+}
+
+.under-col{
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid rgb(119, 118, 118);
+}
+
+/*fine general*/
+
 /* inizio header e nav */
 .menù-sx{
     float: left;
@@ -71,7 +114,6 @@ ul li{
 
 .jumbotron .row{
     width: 90%;
-    margin: 0 auto;
 }
 
 .row h1{
@@ -85,12 +127,12 @@ ul li{
     width: 800px;
 }
 
-.jumbotron .row .col-sx{
+.col-sx{
     float: left;
     width: 35%;
 }
 
-.jumbotron .row .col-dx{
+.col-dx{
     float: right;
     width: 57%;
 }
@@ -106,3 +148,66 @@ ul li{
 }
 
 /* fine jumbotron */
+
+/*inizio piano fatturazione*/
+
+
+.width-60 h2{
+    margin-bottom: 30px;
+}
+
+/*inizio fatturazione */
+
+#ftr-annuale{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+#ftr-mensile{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.content-text p{
+    padding: 5px 10px;
+}
+
+.content-text h3{
+    padding: 5px 10px;
+}
+
+.content-text h4{
+    padding: 5px 10px;
+}
+
+.content-text a{
+    padding: 5px 10px;
+}
+
+.under-col .col-sx{
+    width: 70%;
+}
+
+.under-col .col-dx{
+    width: 30%;
+    text-align: right;
+}
+
+/*fine fatturazione */
+
+/*inizio contatto partner */
+
+.partener .width-60 .row .col-sx{
+    width: 60%;
+}
+
+.partener .width-60 .row .col-dx{
+    width: 35%;
+}
+
+.partener .width-60 .row .col-sx img{
+    height: 500px;
+    width: 550px;
+}
+
+/*fine contatto partner */
