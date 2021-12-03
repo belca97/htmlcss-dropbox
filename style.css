@@ -206,8 +206,21 @@ ul li{
 }
 
 .partener .width-60 .row .col-sx img{
-    height: 500px;
-    width: 550px;
+width: 100%;
 }
 
 /*fine contatto partner */
+
+/* inizio parte business */
+
+.col-sx-33{
+    width: 30%;
+    margin: 1% 1%;
+    float: left;
+}
+
+.col-sx-33 img{
+ width: 100%;
+}
+
+/* fine parte business */
