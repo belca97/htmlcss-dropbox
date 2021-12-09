@@ -9,6 +9,15 @@
 
 header{
     line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+nav{
+    background-color: white;
 }
 
 .row::after{
@@ -17,14 +26,10 @@ header{
     clear: both;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 .btn{
     color: white;
     padding: 8px 16px;
+    text-decoration: none;
 }
 
 .btn-blue{
@@ -39,6 +44,7 @@ a{
 .btn-white{
     border: 1px solid black;
     color: black;
+    background-color: white;
 }
 
 .col{
@@ -49,6 +55,11 @@ a{
 
 .width-60{
     width: 60%;
+    margin-top: 150px;
+}
+
+.width-80{
+    width: 80%;
     margin-top: 150px;
 }
 
@@ -68,7 +79,24 @@ a{
 
 
 .content-text{
+    font-size: 12px;
     padding: 10px 10px;
+}
+
+.content-text p{
+    padding: 5px 10px;
+}
+
+.content-text h3{
+    padding: 5px 10px;
+}
+
+.content-text h4{
+    padding: 5px 10px;
+}
+
+.content-text a{
+    padding: 5px 10px;
 }
 
 .under-col{
@@ -93,14 +121,33 @@ a{
     text-align: right;
 }
 
-ul li{
+.menù-dx ul li{
     list-style: none;
-    display: inline;
+    display: inline-block;
     margin: 0px 10px;
+}
+
+.menù-sx ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .logo{
     vertical-align: middle;
+}
+
+.menù-dx ul li:hover{
+    border-bottom: 2px solid green;
+}
+
+.menù-sx ul li:hover{
+    border-bottom: 2px solid green;
 }
 
 /* fine header e nav */
@@ -108,6 +155,7 @@ ul li{
 /* inizio jumbotron */
 .jumbotron{
     background-color: #7d9cec;
+    margin-top: 80px;
     width: 100%;
     height: 900px;
 }
@@ -168,20 +216,8 @@ ul li{
     margin: 20px 10px;
 }
 
-.content-text p{
-    padding: 5px 10px;
-}
-
-.content-text h3{
-    padding: 5px 10px;
-}
-
-.content-text h4{
-    padding: 5px 10px;
-}
-
-.content-text a{
-    padding: 5px 10px;
+.fa-check{
+    color: rgb(65, 65, 236);
 }
 
 .under-col .col-sx{
@@ -224,3 +260,158 @@ width: 100%;
 }
 
 /* fine parte business */
+
+/* inizio parte team */
+
+.team .row{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 40px;
+}
+
+.team .row .col-sx-30{
+    width: 30vw;
+    float: left;
+    height: 50vh;
+}
+
+.team .row .col-sx-40{
+    width: 40vw;
+    height: 50vh;
+    float: left;
+    overflow-y: scroll;
+}
+
+.img-sponsor{
+    width: 15vw;
+    height: 25vh;
+    float: left;
+    background-color: red;
+}
+
+.img-sponsor img{
+    width: 50%;
+    transform: translate(50%, 110%);
+}
+
+.background-lightgreen{
+    background-color: rgb(123, 207, 123);
+    border: 2vh solid rgb(203, 240, 213);
+}
+
+.background-purple{
+     background-color: rgb(66, 24, 66);
+}
+
+.background-azzurro{
+    background-color: lightblue;
+}
+
+.background-blue{
+    background-color: blue;
+}
+
+.background-yellow{
+    background-color: rgb(165, 165, 22);
+}
+/* fine parte team */
+
+/* inizio background celeste*/
+
+.width-60-2{
+    width: 60%;
+}
+
+.background-lightblue{
+    background-color: rgb(111, 111, 204);
+}
+
+.background-lightblue .width-60-2 .row .col-sx{
+    width: 65%;
+    float: left;
+    color: rgb(66, 24, 66);
+}
+
+.background-lightblue .width-60-2 .row .col-dx{
+    width: 35%;
+    float: left;
+}
+
+.background-lightblue .width-60-2{
+    padding: 100px 32px;
+}
+
+/* fine background celeste*/
+
+/* inizio domande */
+
+.domande .width-60 .row{
+    border-top: 2px solid rgb(180, 176, 176);
+    margin-top: 30px;
+}
+
+.domande .width-60 .row:last-child{
+    border-bottom: 2px solid rgb(180, 176, 176);
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.domande .width-60 .row .col-sx{
+    width: 95%;
+    float: left;
+    padding: 20px 0px;
+}
+
+.domande .width-60 .row .col-dx{
+    width: 5%;
+    float: left;
+    padding: 20px 0px;
+    text-align: right;
+}
+
+/* fine domande */
+
+/* inizio footer */
+footer{
+    background-color: #23272A;
+    height: 500px;
+}
+
+footer .width-80 .row{
+  padding-top: 50px;
+}
+
+footer .width-80 .row .col-sx{
+    width: 18%;
+    float: left;
+}
+
+.menù-footer a{
+    color: white;
+}
+
+.menù-footer li{
+    margin-top: 5px;
+    list-style: none;
+}
+
+.menù-footer li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.border-bottom-15{
+    border-bottom: 2px solid white;
+    width: 15%;
+    padding: 20px 0px;
+    float: left;
+}
+
+.border-bottom-15::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine footer */
