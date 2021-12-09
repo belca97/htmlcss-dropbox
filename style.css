@@ -89,10 +89,13 @@ nav{
 }
 
 .content-text h3{
+    font-size: 16px;
     padding: 5px 10px;
 }
 
+
 .content-text h4{
+    font-size: 14px;
     padding: 5px 10px;
 }
 
@@ -244,6 +247,18 @@ ul li a{
     text-align: right;
 }
 
+.under-col .col-dx .content-text{
+    padding: 20px 30px;
+}
+
+.under-col .col-sx .content-text{
+    padding: 20px 30px;
+}
+
+.under-col .col-sx .content-text p{
+    padding-bottom: 0px;
+    font-size: 14px;
+}
 /*fine fatturazione */
 
 /*inizio contatto partner */
@@ -258,6 +273,9 @@ ul li a{
 
 .partener .width-60 .row .col-sx img{
 width: 100%;
+}
+.col-dx .content-text p{
+    font-size: 16px;
 }
 
 /*fine contatto partner */
@@ -277,6 +295,10 @@ width: 100%;
 /* fine parte business */
 
 /* inizio parte team */
+
+.team .content-text a{
+    padding: 0px 0px;
+}
 
 .team .row{
     width: 100vw;
@@ -377,6 +399,10 @@ width: 100%;
 
 .background-lightblue .width-60-2{
     padding: 100px 32px;
+}
+
+.background-lightblue a{
+    border-color: rgb(111, 111, 204);
 }
 
 /* fine background celeste*/
